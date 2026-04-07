@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results Summary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <!-- Result Card -->
+      <section class="card card--result">
+        <h2 class="card__title">Your Result</h2>
+
+        <div class="score-box">
+          <span class="score-box__number">76</span>
+          <span class="score-box__total">of 100</span>
+        </div>
+
+        <h3 class="result__status">Great</h3>
+
+        <p class="result__text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+
+      <!-- Summary Card -->
+      <section class="card card--summary">
+        <h2 class="card__title">Summary</h2>
+
+        <div class="summary-list">
+          <!-- Item -->
+          <div class="summary-item summary-item--reaction">
+            <div class="summary-item__left">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="reaction icon"
+              />
+              <span class="summary-item__title">Reaction</span>
+            </div>
+            <div class="summary-item__right">
+              <span class="summary-item__score">80</span>
+              <span class="summary-item__total">/ 100</span>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="summary-item summary-item--memory">
+            <div class="summary-item__left">
+              <img src="./assets/images/icon-memory.svg" alt="memory icon" />
+              <span class="summary-item__title">Memory</span>
+            </div>
+            <div class="summary-item__right">
+              <span class="summary-item__score">92</span>
+              <span class="summary-item__total">/ 100</span>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="summary-item summary-item--verbal">
+            <div class="summary-item__left">
+              <img src="./assets/images/icon-verbal.svg" alt="verbal icon" />
+              <span class="summary-item__title">Verbal</span>
+            </div>
+            <div class="summary-item__right">
+              <span class="summary-item__score">61</span>
+              <span class="summary-item__total">/ 100</span>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="summary-item summary-item--visual">
+            <div class="summary-item__left">
+              <img src="./assets/images/icon-visual.svg" alt="visual icon" />
+              <span class="summary-item__title">Visual</span>
+            </div>
+            <div class="summary-item__right">
+              <span class="summary-item__score">73</span>
+              <span class="summary-item__total">/ 100</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn btn--primary">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
